@@ -7,6 +7,7 @@ function App() {
     <div className="app">
       <h1>Hello World!</h1>
       <p>You clicked the button {count} times.</p>
+      <p>Great job clicking that button!</p>
 
       <button onClick={() => setCount(count + 1)}>
         Click me!
